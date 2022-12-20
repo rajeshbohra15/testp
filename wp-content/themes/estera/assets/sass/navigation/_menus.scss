@@ -1,0 +1,58 @@
+.main-navigation {
+	width: 100%;
+
+	ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		.menu-item-has-children > a:after {
+			font-family: ElegantIcons;
+			content: "\33";
+		}
+
+		@media (min-width: 600px) {
+
+			ul {
+				box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+				float: left;
+				position: absolute;
+				top: 100%;
+				left: -999em;
+				z-index: 99999;
+	
+				.menu-item-has-children > a:after {
+					font-family: ElegantIcons;
+					content: "\35";
+				}
+	
+				ul {
+					left: -999em;
+					top: 0;
+				}
+	
+				li {
+	
+					&:hover > ul,
+					&.focus > ul {
+						display: block;
+						left: auto;
+					}
+				}
+	
+				a {
+					min-width: 100px;
+				}
+	
+			}
+
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+	}
+
+}

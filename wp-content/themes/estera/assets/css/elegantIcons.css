@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'ElegantIcons';
+	src: url('../fonts/ElegantIcons.woff') format('woff'),
+		url('../fonts/ElegantIcons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.arrow_carrot-2up,
+.icon_search,
+.icon_cart_alt,
+.icon_heart_alt {
+	font-family: 'ElegantIcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.arrow_carrot-2up:before {
+	content: "\36";
+}
+
+.icon_search:before {
+	content: "\55";
+}
+
+.icon_cart_alt:before {
+	content: "\e015";
+}
+
+.icon_heart_alt:before {
+	content: "\e030";
+}
+
+.glyph {
+	float: left;
+	text-align: center;
+	padding: .75em;
+	margin: .4em 1.5em .75em 0;
+	width: 6em;
+	text-shadow: none;
+}
+
+.glyph_big {
+	font-size: 128px;
+	color: #59c5dc;
+	float: left;
+	margin-right: 20px;
+}
+
+.glyph div {
+	padding-bottom: 10px;
+}
+
+.glyph input {
+	font-family: consolas, monospace;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	border: 0;
+	box-shadow: 0 0 0 1px #ccc;
+	padding: .2em;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.glyph .fs1 {
+	font-size: 2em;
+}

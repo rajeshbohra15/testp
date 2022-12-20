@@ -1,0 +1,427 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "orderable_admin_assets_enqueued",
+            "file": "inc/class-assets.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_after_frontend_assets",
+            "file": "inc/class-assets.php",
+            "type": "action",
+            "doc": {
+                "description": "If the option \"Enable AJAX add to cart buttons on archives\" is not enabled, we need to turn off the click event for .add_to_cart_button elements on drawer.js to keep the AJAX behaviour only on Mini cart.",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_after_product_hero",
+            "file": "templates/product/hero.php",
+            "type": "action",
+            "doc": {
+                "description": "Allow product hero image size to be updated.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "Product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Argumentss passed to the Layout shortcode.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_before_product_hero",
+            "file": "templates/product/hero.php",
+            "type": "action",
+            "doc": {
+                "description": "Template: Product Hero.",
+                "long_description": "This template can be overridden by copying it to yourtheme/orderable/hero.php\n HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Templates"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Product.",
+                        "types": [
+                            "\\WC_Product_Variable"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of args for the shortcode.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": "<p>This template can be overridden by copying it to yourtheme/orderable/hero.php</p> <p>HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_init",
+            "file": "orderable.php",
+            "type": "action",
+            "doc": {
+                "description": "Plugin Name: Orderable - Local Ordering System Author URI: https://orderable.com Description: Take local online ordering to a whole new level with Orderable.",
+                "long_description": "Version: 1.6.1 Author: Orderable Text Domain: orderable WC requires at least: 5.4.0 WC tested up to: 6.9.4",
+                "tags": [],
+                "long_description_html": "<p>Version: 1.6.1 Author: Orderable Text Domain: orderable WC requires at least: 5.4.0 WC tested up to: 6.9.4</p>"
+            },
+            "args": 0
+        },
+        {
+            "name": "orderable_main_after_products",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_after_products_category_children",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_after_sections",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_main_before_products",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_before_products_category_children",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_main_before_sections",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_after_product_options",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_after_product_options_wrapper",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_before_product_options",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_before_product_options_wrapper",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_side_menu_before_product_title",
+            "file": "templates/product/options.php",
+            "type": "action",
+            "doc": {
+                "description": "Template: Product Options.",
+                "long_description": "This template can be overridden by copying it to yourtheme/orderable/options.php\n HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Templates"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Determines whether it's possible to add to cart (i.e. a single product view).",
+                        "types": [
+                            "bool"
+                        ],
+                        "variable": "$orderable_single_product"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of args.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": "<p>This template can be overridden by copying it to yourtheme/orderable/options.php</p> <p>HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_after_mini_cart",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_ajax_added_to_cart",
+            "file": "inc/class-ajax.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_before_mini_cart",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "Mini-cart",
+                "long_description": "Contains the markup for the mini-cart, used by the cart widget.\n This template can be overridden by copying it to yourtheme/woocommerce/cart/mini-cart.php.\n HOWEVER, on occasion WooCommerce will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "see",
+                        "content": "",
+                        "refers": "https://docs.woocommerce.com/document/template-structure/"
+                    },
+                    {
+                        "name": "package",
+                        "content": "WooCommerce\\Templates"
+                    },
+                    {
+                        "name": "version",
+                        "content": "5.2.0"
+                    }
+                ],
+                "long_description_html": "<p>Contains the markup for the mini-cart, used by the cart widget.</p> <p>This template can be overridden by copying it to yourtheme/woocommerce/cart/mini-cart.php.</p> <p>HOWEVER, on occasion WooCommerce will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_before_mini_cart_contents",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_checkout_update_user_meta",
+            "file": "inc/class-ajax.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_mini_cart_contents",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_shipping_method_chosen",
+            "file": "inc/class-ajax.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_after_buttons",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_before_buttons",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_before_total",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_buttons",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 0
+        },
+        {
+            "name": "woocommerce_widget_shopping_cart_total",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "action",
+            "doc": {
+                "description": "Hook: woocommerce_widget_shopping_cart_total.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "hooked",
+                        "content": "woocommerce_widget_shopping_cart_subtotal - 10"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 0
+        }
+    ]
+}

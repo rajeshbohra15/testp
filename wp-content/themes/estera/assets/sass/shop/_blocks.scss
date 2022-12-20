@@ -1,0 +1,31 @@
+.wp-block-button.wc-block-grid__product-add-to-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: all ease .35s;
+}
+
+.wc-block-grid__product:hover .wp-block-button.wc-block-grid__product-add-to-cart {
+    opacity: 1;
+}
+
+.wp-block-button__link {
+    border-radius: 0;
+}
+
+.wc-block-grid__product-onsale {
+    top: 10px;
+    right: auto;
+    left: 5px;
+    position: absolute;
+    background: $color__dark_gray;
+    color: #fff;
+}
+
+/* Rating */
+
+.wc-block-grid__product-rating .star-rating span::before,
+.wc-block-grid__product-rating .wc-block-grid__product-rating__stars span::before {
+    color: #ffb001;
+}

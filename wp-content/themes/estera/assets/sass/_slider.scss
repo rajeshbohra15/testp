@@ -1,0 +1,152 @@
+.header-slider-item,
+.tns-nav,
+.tns-controls {
+	text-align: center;
+}
+
+.header-slider-wrapper {
+
+	//IE 11 fix
+	.image-overlay {
+		display: flex;
+	}
+
+	.text-wrapper {
+		@media (min-width:60em) {
+			width: 60%;
+		}
+		width: 80%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: 100%;
+		margin: auto;
+		text-align: center;
+		@include row-justify-center
+	}
+
+	.text-wrapper p {
+		color: #fff;
+		line-height: 30px
+	}
+
+	.text-wrapper h2 a {
+		@media (min-width:40em) {
+			font-size: 36px;
+		}
+		color: #fff;
+		font-weight: 900;
+		font-size: 24px;
+	}
+
+	.button-wrapper {
+		button {
+			background-color: transparent;
+			text-transform: uppercase;
+			visibility: visible;
+			letter-spacing: 0px;
+			font-weight: 700;
+			font-size: 14px;
+			border-color: rgba(255, 255, 255, .8);
+			border-width: 2px;
+			border-radius: 30px;
+			padding: 12px 24px;
+			color: rgb(255, 255, 255);
+			line-height: 25px;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: rgba(255, 255, 255, .8);
+			color: rgba(0, 0, 0, .8);
+		}
+	}
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: #fff;
+	top: 35%;
+}
+
+// Header Slider arrows
+.header-slider-wrapper {
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		top: 50%;
+		color: #fff;
+	}
+}
+
+.swiper-slide-active {
+	z-index: 99;
+}
+
+.testimonials-container {
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		top: 50%;
+		color: #868e96;
+	}
+}
+
+.swiper-pagination-bullet-active {
+	background: #fff;
+}
+
+//SLIDER ANIMATION
+
+@-webkit-keyframes estera_zoomInOut {
+	0% {
+		-webkit-transform: scale(1);
+	}
+
+	100% {
+		-webkit-transform: scale(1.15);
+	}
+}
+
+@-moz-keyframes estera_zoomInOut {
+	0% {
+		-moz-transform: scale(1);
+	}
+
+	100% {
+		-moz-transform: scale(1.15);
+	}
+}
+
+@-ms-keyframes estera_zoomInOut {
+	0% {
+		-ms-transform: scale(1);
+	}
+
+	100% {
+		-ms-transform: scale(1.15);
+	}
+}
+
+@-o-keyframes estera_zoomInOut {
+	0% {
+		-o-transform: scale(1);
+	}
+
+	100% {
+		-o-transform: scale(1.15);
+	}
+}
+
+@keyframes estera_zoomInOut {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.15);
+	}
+}

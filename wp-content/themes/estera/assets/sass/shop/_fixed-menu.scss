@@ -1,0 +1,44 @@
+.topcorner {
+  position: fixed;
+  top: 35%;
+  right: -3px;
+  display: none;
+  text-align: center;
+  z-index: 99999;
+  width: 50px;
+}
+
+.topcorner .my-cart a {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.topcorner .my-cart {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.topcorner ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.topcorner ul li,
+.topcorner .my-cart {
+  margin-top: 5px;
+  display: block;
+  list-style-type: none;
+  padding: 12px 5px;
+  box-shadow: -1px 3px 5px 0px rgb(212, 212, 212);
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+
+.dark-mode .topcorner ul li,
+.dark-mode .topcorner .my-cart {
+  background-color: transparent;
+  border: 1px solid #d3d3d3;
+}

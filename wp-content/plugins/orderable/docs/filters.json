@@ -1,0 +1,1228 @@
+{
+    "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+    "hooks": [
+        {
+            "name": "active_plugins",
+            "file": "orderable.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "iconic_wds_is_delivery_day",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "iconic_wds_is_delivery_day",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "iconic_wds_is_delivery_day",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable-service-dates",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable-service-dates",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable-service-dates",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable-service-dates",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_add_to_cart_button_args",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_admin_notices",
+            "file": "inc/class-admin-notices.php",
+            "type": "filter",
+            "doc": {
+                "description": "Admin Notices.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_admin_script_deps",
+            "file": "inc/class-assets.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_admin_style_deps",
+            "file": "inc/class-assets.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_checkout_data",
+            "file": "inc/modules/timings/class-timings-checkout.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Timings checkout.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_date_available",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 4
+        },
+        {
+            "name": "orderable_default_settings",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Settings methods.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_exclude_sections_for_unique_categories",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Exclude Sections for Unique Categories.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The Excluded sections.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$exclude_sections"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The Unfiltered Categories.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$categories"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout Settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_flatten_products_by_category_level",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_accordion_data",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter product accordion data.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "var",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$data"
+                    },
+                    {
+                        "name": "var",
+                        "content": "",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_add_to_cart_trigger",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_cart_icon_css",
+            "file": "inc/modules/drawer/class-drawer-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_fine_tune_cart_css",
+            "file": "inc/modules/drawer/class-drawer-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Drawer settings.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_formatted_date",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_holiday_timestamps_by_type",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_holiday_timestamps_by_type",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_holidays",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_get_holidays",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_get_max_orders_field",
+            "file": "inc/modules/timings/class-timings-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Timings settings.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_get_module_class_name",
+            "file": "inc/class-modules.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module methods.",
+                "long_description": "Load individual modules of Orderable plugin, if they exist.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": "<p>Load individual modules of Orderable plugin, if they exist.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_order_date_time",
+            "file": "inc/modules/timings/class-timings-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Timings order.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_product_card_classes",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_products",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_products_args",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter arguments used to retrieve products from database",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "WC_Product_Query arguments",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New query arguments",
+                        "types": [
+                            "array"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.2.1"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_get_products_args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_get_products_by_category",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Product methods.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_service_hours_settings",
+            "file": "inc/modules/timings/class-timings-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_service_hours_settings",
+            "file": "inc/modules/timings/class-timings-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_service_type",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Services order.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_service_type",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_get_slots",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_get_time_slot_fields",
+            "file": "inc/modules/timings/class-timings-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_get_unique_categories",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Get Unique Categories.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The Filtered Categories.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$unique_categories"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The Unfiltered Categories.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$categories"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Layout Settings.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_has_available_methods",
+            "file": "inc/modules/timings/class-timings-checkout.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_hidden_categories",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_hidden_categories",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_hidden_categories",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_is_delivery_day",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_is_settings_page",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_layout_defaults",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_layout_sections_field",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_layout_settings",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_layout_settings_save_data",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Layouts.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_layout_settings_string",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_live_view_new_order_audio_file_url",
+            "file": "inc/modules/live-view/class-live-view.php",
+            "type": "filter",
+            "doc": {
+                "description": "Allows to override the notification audio file.",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_main_class",
+            "file": "inc/modules/layouts/templates/main.php",
+            "type": "filter",
+            "doc": {
+                "description": "Layout: Main layout.",
+                "long_description": "This template can be overridden by copying it to yourtheme/orderable/layouts/main.php\n HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Templates"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of products, sorted by category.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$products"
+                    },
+                    {
+                        "name": "var",
+                        "content": "Array of shortcode args.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": "<p>This template can be overridden by copying it to yourtheme/orderable/layouts/main.php</p> <p>HOWEVER, on occasion Orderable will need to update template files and you (the theme developer) will need to copy the new files to your theme to maintain compatibility. We try to do this as little as possible, but it does happen. When this occurs the version of the template file will be bumped and the readme will list any important changes.</p>"
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_onboarding_slides",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_open_hours",
+            "file": "inc/modules/timings/class-timings.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Timings.",
+                "long_description": "Delivery/pickup date and time and lead times.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": "<p>Delivery/pickup date and time and lead times.</p>"
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_product_hero_image_size",
+            "file": "templates/product/hero.php",
+            "type": "filter",
+            "doc": {
+                "description": "Allow product hero image size to be updated.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "Product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "param",
+                        "content": "Argumentss passed to the Layout shortcode.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_service_fragments",
+            "file": "inc/class-ajax.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_service_labels",
+            "file": "inc/modules/services/class-services.php",
+            "type": "filter",
+            "doc": {
+                "description": "Module: Services.",
+                "long_description": "Delivery/pickup services.",
+                "tags": [
+                    {
+                        "name": "package",
+                        "content": "Orderable/Classes"
+                    }
+                ],
+                "long_description_html": "<p>Delivery/pickup services.</p>"
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_service_type_column_background_color",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 5
+        },
+        {
+            "name": "orderable_service_type_column_text_color",
+            "file": "inc/modules/services/class-services-order.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 5
+        },
+        {
+            "name": "orderable_short_description",
+            "file": "templates/product/card-content.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the product short description to show in the card.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "since",
+                        "content": "1.1.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_short_description"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product short description.",
+                        "types": [
+                            "string"
+                        ],
+                        "variable": "$short_description"
+                    },
+                    {
+                        "name": "param",
+                        "content": "The product.",
+                        "types": [
+                            "\\WC_Product"
+                        ],
+                        "variable": "$product"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New value",
+                        "types": [
+                            "string"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_shortcode_args",
+            "file": "inc/modules/layouts/class-layouts.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "orderable_styles",
+            "file": "inc/class-assets.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_update_cart_item_button_args",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter arguments used to the update cart item button.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The arguments.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$args"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New arguments",
+                        "types": [
+                            "array"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.4.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_update_cart_item_button_args"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "orderable_update_cart_item_button_html",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "Filter the Update Cart Item button HTML.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The Update Cart Item button HTML.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$update_cart_item_button_html"
+                    },
+                    {
+                        "name": "return",
+                        "content": "New HTML",
+                        "types": [
+                            "array"
+                        ]
+                    },
+                    {
+                        "name": "since",
+                        "content": "1.4.0"
+                    },
+                    {
+                        "name": "hook",
+                        "content": "orderable_update_cart_item_button_html"
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "orderable_valid_admin_pages",
+            "file": "inc/class-settings.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "the_content",
+            "file": "inc/class-products.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 1
+        },
+        {
+            "name": "woocommerce_add_to_cart_validation",
+            "file": "inc/class-ajax.php",
+            "type": "filter",
+            "doc": {
+                "description": "Fill the value of the fields.",
+                "long_description": "",
+                "tags": [
+                    {
+                        "name": "param",
+                        "content": "The field group data.",
+                        "types": [
+                            "array"
+                        ],
+                        "variable": "$field_group"
+                    },
+                    {
+                        "name": "return",
+                        "content": "",
+                        "types": [
+                            "array"
+                        ]
+                    }
+                ],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_name",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_permalink",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_price",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_product",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_product_id",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_cart_item_remove_link",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 2
+        },
+        {
+            "name": "woocommerce_cart_item_thumbnail",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_mini_cart_item_class",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        },
+        {
+            "name": "woocommerce_widget_cart_item_visible",
+            "file": "woocommerce/cart/mini-cart.php",
+            "type": "filter",
+            "doc": {
+                "description": "",
+                "long_description": "",
+                "tags": [],
+                "long_description_html": ""
+            },
+            "args": 3
+        }
+    ]
+}

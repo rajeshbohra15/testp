@@ -1,0 +1,30 @@
+@mixin row{
+	display: flex;
+}
+@mixin row-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+@mixin col{
+	display: flex;
+	flex-flow: column;
+}
+// Justify content row
+@mixin row-justify-center {
+	@include row;
+	justify-content: center;
+	align-items: center;
+}
+@mixin row-justify-around {
+	@include row;
+	justify-content: space-around;
+}
+@mixin row-justify-between {
+	@include row;
+	justify-content: space-between;
+}
+// align row
+@mixin row-align-center {
+	@include row;
+	align-items: center;
+}

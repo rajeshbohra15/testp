@@ -1,0 +1,1121 @@
+# Copyright (C) 2022 orderable
+# This file is distributed under the same license as the orderable package.
+msgid ""
+msgstr ""
+"Project-Id-Version: orderable\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-07 12:02+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: orderable.php:118
+msgid "Orderable requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: orderable.php:131
+msgid "Orderable Pro needs to be at least v%s for compatibility. Please update the Orderable Pro plugin."
+msgstr ""
+
+#: orderable.php:132
+msgid "Update now"
+msgstr ""
+
+#: inc/class-admin-notices.php:92
+msgid "Dismiss Notice"
+msgstr ""
+
+#: inc/class-ajax.php:242
+msgid "Sorry, there are no delivery or pickup options available."
+msgstr ""
+
+#: inc/class-ajax.php:247
+msgid "pickup"
+msgstr ""
+
+#: inc/class-ajax.php:247
+msgid "delivery"
+msgstr ""
+
+#: inc/class-ajax.php:250
+msgid "Sorry, there are no %s options available. Please try %s instead."
+msgstr ""
+
+#: inc/class-ajax.php:344, inc/class-settings.php:380
+msgid "Country / State"
+msgstr ""
+
+#: inc/class-assets.php:41
+msgid "Sorry, that product is out of stock."
+msgstr ""
+
+#: inc/class-assets.php:42
+msgid "Sorry, that product is unavailable."
+msgstr ""
+
+#: inc/class-assets.php:43
+msgid "Sorry, that combination does not exist."
+msgstr ""
+
+#: inc/class-helpers.php:72
+msgid "Available in Pro"
+msgstr ""
+
+#: inc/class-helpers.php:96
+msgid "Add New"
+msgstr ""
+
+#: inc/class-helpers.php:97
+msgid "Add New %s"
+msgstr ""
+
+#: inc/class-helpers.php:98
+msgid "New %s"
+msgstr ""
+
+#: inc/class-helpers.php:99
+msgid "Edit %s"
+msgstr ""
+
+#: inc/class-helpers.php:100
+msgid "View %s"
+msgstr ""
+
+#: inc/class-helpers.php:102
+msgid "Search %s"
+msgstr ""
+
+#: inc/class-helpers.php:103
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/class-helpers.php:104
+msgid "No %s found."
+msgstr ""
+
+#: inc/class-helpers.php:105
+msgid "No %s found in trash."
+msgstr ""
+
+#: inc/class-helpers.php:106
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "%s Featured Image"
+msgstr ""
+
+#: inc/class-helpers.php:107
+msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set featured image"
+msgstr ""
+
+#: inc/class-helpers.php:108
+msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove featured image"
+msgstr ""
+
+#: inc/class-helpers.php:109
+msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as featured image"
+msgstr ""
+
+#: inc/class-helpers.php:110
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "%s archives"
+msgstr ""
+
+#: inc/class-helpers.php:111
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into %s"
+msgstr ""
+
+#: inc/class-helpers.php:112
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: inc/class-helpers.php:113
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter %s list"
+msgstr ""
+
+#: inc/class-helpers.php:114
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "%s list navigation"
+msgstr ""
+
+#: inc/class-helpers.php:115
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "%s list"
+msgstr ""
+
+#: inc/class-products.php:313
+msgid "Add"
+msgstr ""
+
+#: inc/class-products.php:318
+msgid "Select"
+msgstr ""
+
+#: inc/class-products.php:326
+msgid "Out of Stock"
+msgstr ""
+
+#: inc/class-products.php:353
+msgid "Update"
+msgstr ""
+
+#: inc/class-products.php:374
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-products.php:726
+msgid "Description"
+msgstr ""
+
+#: inc/class-settings.php:81, inc/class-settings.php:98
+msgid "Settings"
+msgstr ""
+
+#: inc/class-settings.php:97
+msgid "Orderable Settings"
+msgstr ""
+
+#: inc/class-settings.php:138
+msgid "Dashboard"
+msgstr ""
+
+#: inc/class-settings.php:143
+msgid "Style"
+msgstr ""
+
+#: inc/class-settings.php:151
+msgid "Getting Started"
+msgstr ""
+
+#: inc/class-settings.php:152
+msgid "Below you will find a playlist of useful \"getting started\" videos for Orderable. If you need any help getting things set up, please <a href=\"%s\" target=\"_blank\">reach out to our support team</a>."
+msgstr ""
+
+#: inc/class-settings.php:167
+msgid "General"
+msgstr ""
+
+#: inc/class-settings.php:173
+msgid "Brand Color"
+msgstr ""
+
+#: inc/class-settings.php:174
+msgid "Select an accent color to be used for buttons and other elements."
+msgstr ""
+
+#: inc/class-settings.php:180
+msgid "Button Style"
+msgstr ""
+
+#: inc/class-settings.php:181
+msgid "Choose a button style which suits your theme."
+msgstr ""
+
+#: inc/class-settings.php:185
+msgid "Rounded"
+msgstr ""
+
+#: inc/class-settings.php:186
+msgid "Square"
+msgstr ""
+
+#: inc/class-settings.php:195
+msgid "Product Cards"
+msgstr ""
+
+#: inc/class-settings.php:201
+msgid "Product Title Size (px)"
+msgstr ""
+
+#: inc/class-settings.php:202
+msgid "Set the product title font size in pixels."
+msgstr ""
+
+#: inc/class-settings.php:208
+msgid "Product Price Size (px)"
+msgstr ""
+
+#: inc/class-settings.php:209
+msgid "Set the product price font size in pixels."
+msgstr ""
+
+#: inc/class-settings.php:340
+msgid "Installing..."
+msgstr ""
+
+#: inc/class-settings.php:342
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/class-settings.php:355
+msgid "Business Name"
+msgstr ""
+
+#: inc/class-settings.php:362
+msgid "Address line 1"
+msgstr ""
+
+#: inc/class-settings.php:368
+msgid "Address line 2"
+msgstr ""
+
+#: inc/class-settings.php:374
+msgid "City"
+msgstr ""
+
+#: inc/class-settings.php:387
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: inc/class-settings.php:393
+msgid "Business Email"
+msgstr ""
+
+#: inc/class-settings.php:401
+msgid "Please keep me up to date via email on new Orderable training and features"
+msgstr ""
+
+#: inc/class-settings.php:414
+msgid "Which services do you offer?"
+msgstr ""
+
+#: inc/class-settings.php:418, inc/modules/services/class-services-order.php:34, inc/modules/services/class-services.php:192, inc/modules/timings/class-timings-settings.php:136, inc/modules/timings/class-timings-settings.php:301, inc/modules/timings/class-timings-settings.php:468
+msgid "Delivery"
+msgstr ""
+
+#: inc/class-settings.php:419, inc/modules/services/class-services-order.php:35, inc/modules/services/class-services.php:191, inc/modules/timings/class-timings-settings.php:137, inc/modules/timings/class-timings-settings.php:306, inc/modules/timings/class-timings-settings.php:474
+msgid "Pickup"
+msgstr ""
+
+#: inc/class-settings.php:424
+msgid "Which days of the week are you open?"
+msgstr ""
+
+#: inc/class-settings.php:428, inc/modules/timings/class-timings.php:59
+msgid "Monday"
+msgstr ""
+
+#: inc/class-settings.php:429, inc/modules/timings/class-timings.php:60
+msgid "Tuesday"
+msgstr ""
+
+#: inc/class-settings.php:430, inc/modules/timings/class-timings.php:61
+msgid "Wednesday"
+msgstr ""
+
+#: inc/class-settings.php:431, inc/modules/timings/class-timings.php:62
+msgid "Thursday"
+msgstr ""
+
+#: inc/class-settings.php:432, inc/modules/timings/class-timings.php:63
+msgid "Friday"
+msgstr ""
+
+#: inc/class-settings.php:433, inc/modules/timings/class-timings.php:64
+msgid "Saturday"
+msgstr ""
+
+#: inc/class-settings.php:434, inc/modules/timings/class-timings.php:58
+msgid "Sunday"
+msgstr ""
+
+#: inc/class-settings.php:439
+msgid "What are your normal opening hours?"
+msgstr ""
+
+#: inc/class-settings.php:570
+msgid "Local"
+msgstr ""
+
+#: inc/class-settings.php:685
+msgid "From:"
+msgstr ""
+
+#: inc/class-settings.php:698
+msgid "To:"
+msgstr ""
+
+#: inc/class-settings.php:721, inc/class-settings.php:741
+msgid "Visibility"
+msgstr ""
+
+#: inc/class-settings.php:723, inc/class-settings.php:745
+msgid "Default"
+msgstr ""
+
+#: inc/class-settings.php:724, inc/class-settings.php:746
+msgid "Hidden"
+msgstr ""
+
+#: inc/class-settings.php:726, inc/class-settings.php:748
+msgid "Choose whether to hide (on the frontend) this category archive and all single product pages within this category. Hiding them is recommended if using this category in the Orderable menu shortcode."
+msgstr ""
+
+#: inc/class-settings.php:882
+msgid "Get Help"
+msgstr ""
+
+#: inc/class-settings.php:886
+msgid "Request Feature"
+msgstr ""
+
+#: inc/class-settings.php:890
+msgid "View Docs"
+msgstr ""
+
+#: inc/class-settings.php:914
+msgid "Set Up Your Store"
+msgstr ""
+
+#: inc/class-settings.php:916
+msgid "Use the Store Settings tab to configure your store's opening hours, delivery/pickup schedule, and holidays."
+msgstr ""
+
+#: inc/class-settings.php:930, inc/modules/layouts/class-layouts.php:93, inc/modules/layouts/class-layouts.php:98
+msgid "Product Layouts"
+msgstr ""
+
+#: inc/class-settings.php:932
+msgid "Use the Layout Builder to create a product list based on category. Embed your layout using the shortcode or block."
+msgstr ""
+
+#: inc/class-settings.php:946, inc/modules/live-view/class-live-view.php:205, inc/modules/live-view/class-live-view.php:205
+msgid "Live Order View"
+msgstr ""
+
+#: inc/class-settings.php:948
+msgid "Use the Live Order View to get notified and manage orders in real time."
+msgstr ""
+
+#: inc/class-settings.php:961, inc/modules/addons/class-addons.php:35, inc/modules/addons/class-addons.php:42
+msgid "Product Addons"
+msgstr ""
+
+#: inc/class-settings.php:963
+msgid "Create product options which can be conditionally applied to the products in your store."
+msgstr ""
+
+#: inc/class-settings.php:1007, inc/modules/drawer/templates/drawer.php:20
+msgid "Close"
+msgstr ""
+
+#: inc/class-settings.php:1008
+msgid "Next"
+msgstr ""
+
+#: inc/class-settings.php:1009
+msgid "Skip"
+msgstr ""
+
+#: templates/admin/orderable-pro-modal.php:22
+msgid "Unlock Orderable Pro"
+msgstr ""
+
+#: templates/admin/orderable-pro-modal.php:23
+msgid "Get this feature and more with the Pro version of Orderable!"
+msgstr ""
+
+#: templates/admin/orderable-pro-modal.php:24
+msgid "Learn More"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:48
+msgid "Edit"
+msgstr ""
+
+#: inc/modules/addons/class-addons.php:35
+msgid "Addons"
+msgstr ""
+
+#: inc/modules/addons/class-addons.php:35, inc/modules/custom-order-status/class-custom-order-status.php:35, inc/modules/table-ordering/class-table-ordering.php:35, inc/modules/timed-products/class-timed-products.php:35
+msgid "Pro"
+msgstr ""
+
+#: inc/modules/checkout/class-checkout.php:38
+msgid "Checkout Settings"
+msgstr ""
+
+#: inc/modules/checkout/class-checkout.php:44
+msgid "Enable Custom Checkout"
+msgstr ""
+
+#: inc/modules/checkout/class-checkout.php:45
+msgid "When enabled, your theme's checkout will be replaced by Orderable's optimized checkout experience."
+msgstr ""
+
+#: inc/modules/custom-order-status/class-custom-order-status.php:35, inc/modules/custom-order-status/class-custom-order-status.php:35, inc/modules/custom-order-status/class-custom-order-status.php:42
+msgid "Order Statuses"
+msgstr ""
+
+#. translators: %s Product title.
+#: inc/modules/drawer/class-drawer-ajax.php:53
+msgid "You can only have 1 %s in your cart."
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:61
+msgid "Side Drawer"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:68
+msgid "Mini Cart Settings"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:74
+msgid "Cart Icon Position"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:75
+msgid "Set the position of the mini cart icon when the cart is not empty. Choose \"None\" to disable it."
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:78, inc/modules/drawer/class-drawer-settings.php:121
+msgid "None"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:79
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:80
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:81
+msgid "Top Left"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:82
+msgid "Top Right"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:88
+msgid "Fine-Tune Position"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:89
+msgid "Fine-tune the position of the mini cart icon in pixels. These settings will push the cart icon away from the respective side."
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:100
+msgid "Quickview Settings"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:101
+msgid "Settings for when products are displayed in the Orderable drawer."
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:106
+msgid "Accordion Position"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:107
+msgid "Where should the product information accordion be displayed in the side drawer."
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:110
+msgid "Before Product Options"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:111
+msgid "After Product Options"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:117
+msgid "Product Description"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:118
+msgid "Choose which product description to display in the side drawer."
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:122
+msgid "Short Description"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:123
+msgid "Full Description"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:161
+msgid "Top (px)"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:167
+msgid "Bottom (px)"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:173
+msgid "Right (px)"
+msgstr ""
+
+#: inc/modules/drawer/class-drawer-settings.php:179
+msgid "Left (px)"
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:94
+msgid "Product Layout"
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:131
+msgid "Shortcode"
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:132
+msgid "PHP Function"
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:157
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:166
+msgid "Layout Preview"
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:234
+msgid "This preview is for demo purposes and is not interactive."
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:493
+msgid "What are Product Layouts?"
+msgstr ""
+
+#: inc/modules/layouts/class-layouts.php:494
+msgid "This is where you can create product layouts and customize their settings. Save your layouts here and reuse them later using the block editor, shortcode (great for page builders), or PHP snippet."
+msgstr ""
+
+#: inc/modules/live-view/class-live-view.php:166
+msgid "Enable Live View"
+msgstr ""
+
+#: inc/modules/live-view/class-live-view.php:171
+msgid "Exit Live View"
+msgstr ""
+
+#: inc/modules/live-view/class-live-view.php:172
+msgid "Mute"
+msgstr ""
+
+#: inc/modules/live-view/class-live-view.php:172
+msgid "Unmute"
+msgstr ""
+
+#: inc/modules/live-view/class-live-view.php:247
+msgid "order_manager"
+msgstr ""
+
+#: inc/modules/live-view/class-live-view.php:247
+msgid "Order Manager"
+msgstr ""
+
+#: inc/modules/notifications/class-notifications.php:38
+msgid "Notification Settings"
+msgstr ""
+
+#: inc/modules/notifications/class-notifications.php:44
+msgid "Enable Notifications"
+msgstr ""
+
+#: inc/modules/notifications/class-notifications.php:45
+msgid "Enable SMS/WhatsApp notifications for order statuses."
+msgstr ""
+
+#: inc/modules/services/class-services-order.php:33
+msgid "All services"
+msgstr ""
+
+#: inc/modules/services/class-services-order.php:109
+msgid "Service"
+msgstr ""
+
+#. translators: 1: service name; 2: date label. E.g.: "Pickup Date", "Delivery Date"
+#: inc/modules/services/class-services-order.php:154
+msgctxt "Order date"
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: 1: service name; 2: time label. E.g.: "Pickup Time", "Delivery Time"
+#: inc/modules/services/class-services-order.php:156
+msgctxt "Order time"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: inc/modules/services/class-services.php:193
+msgid "Pickups"
+msgstr ""
+
+#: inc/modules/services/class-services.php:194
+msgid "Deliveries"
+msgstr ""
+
+#: inc/modules/table-ordering/class-table-ordering.php:35, inc/modules/table-ordering/class-table-ordering.php:35, inc/modules/table-ordering/class-table-ordering.php:42
+msgid "Table Ordering"
+msgstr ""
+
+#: inc/modules/timed-products/class-timed-products.php:35, inc/modules/timed-products/class-timed-products.php:35, inc/modules/timed-products/class-timed-products.php:42
+msgid "Timed Products"
+msgstr ""
+
+#. translators: %s Service type.
+#: inc/modules/timings/class-timings-checkout.php:69, inc/modules/timings/class-timings-checkout.php:48
+msgid "%s Date"
+msgstr ""
+
+#: inc/modules/timings/class-timings-checkout.php:76
+msgid "Select a date..."
+msgstr ""
+
+#: inc/modules/timings/class-timings-checkout.php:78, inc/modules/timings/class-timings-checkout.php:101
+msgid "As soon as possible"
+msgstr ""
+
+#. translators: %s Service type.
+#: inc/modules/timings/class-timings-checkout.php:92
+msgid "%s Time"
+msgstr ""
+
+#: inc/modules/timings/class-timings-checkout.php:99
+msgid "Select a time..."
+msgstr ""
+
+#: inc/modules/timings/class-timings-checkout.php:56
+msgid "Sorry, there are currently no slots available for %s."
+msgstr ""
+
+#: inc/modules/timings/class-timings-checkout.php:117
+msgid "Please select an order date."
+msgstr ""
+
+#: inc/modules/timings/class-timings-checkout.php:190
+msgid " (As soon as possible)"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:47, inc/modules/timings/class-timings.php:330
+msgid "Today"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:48, inc/modules/timings/class-timings.php:332
+msgid "Tomorrow"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:49
+msgid "Next 7 Days"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:50
+msgid "Next 30 Days"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:51
+msgid "Custom Range"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:52
+msgid "Clear"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:53
+msgid "Apply"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:96
+msgid "Su"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:97
+msgid "Mo"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:98
+msgid "Tu"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:99
+msgid "We"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:100
+msgid "Th"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:101
+msgid "Fr"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:102
+msgid "Sa"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:105
+msgid "January"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:106
+msgid "February"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:107
+msgid "March"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:108
+msgid "April"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:109
+msgid "May"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:110
+msgid "June"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:111
+msgid "July"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:112
+msgid "August"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:113
+msgid "September"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:114
+msgid "October"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:115
+msgid "November"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:116
+msgid "December"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:200, inc/modules/timings/class-timings-order.php:238
+msgid "Date"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:204, inc/modules/timings/class-timings-order.php:242
+msgid "Time"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:208
+msgid "Timestamp"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:221
+msgid "Due Date/Time"
+msgstr ""
+
+#: inc/modules/timings/class-timings-order.php:322
+msgid "Filter by due date"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:102, inc/modules/timings/class-timings-settings.php:109
+msgid "Store Settings"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:115
+msgid "Open Hours"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:116
+msgid "The days and hours your store is open. Leave \"Max Orders\" empty for no limit."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:123
+msgid "Timezone"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:124
+msgid "Your store's current timezone. This should be set to the location of your store."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:131, inc/modules/timings/class-timings-settings.php:462
+msgid "Services"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:132
+msgid "Which services do you offer? Please ensure there are <a href=\"%s\" target=\"_blank\">shipping methods</a> available for these services."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:142
+msgid "Service Hours"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:143
+msgid "The days and hours where you offer delivery/pickup services."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:150
+msgid "As Soon As Possible"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:151
+msgid "Allow customers to request delivery \"ASAP\"."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:155
+msgid "Allow \"ASAP\" as an option when choosing delivery date"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:160
+msgid "Lead Time"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:161
+msgid "How many days do you need to prepare the order? Leave blank or \"0\" for same day."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:167
+msgid "Preorder Days"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:168
+msgid "For how many days after the lead time will you accept orders?"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:174
+msgid "Delivery Days Calculation Method"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:175
+msgid "Calculate Lead time and Preorder Days based on all days of the week, open days, service days or weekdays."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:179
+msgid "Service Days"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:180
+msgid "Open Days"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:181
+msgid "Weekdays Only"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:182
+msgid "All Days"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:188
+msgid "Holidays"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:189
+msgid "Days when your store is closed."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:235, inc/modules/timings/class-timings-settings.php:257
+msgid "Open Hours (From)"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:236, inc/modules/timings/class-timings-settings.php:261
+msgid "Open Hours (To)"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:237, inc/modules/timings/class-timings-settings.php:554
+msgid "Max Orders (Day)"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:294
+msgid "Please select services available for this store."
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:311, inc/modules/timings/class-timings-settings.php:316
+msgid "Add service hours"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:332
+msgid "Same as delivery service hours"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:369
+msgid "Days"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:371
+msgid "Select \"Open Hours\" first"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:382
+msgid "Period"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:394, inc/modules/timings/class-timings.php:410
+msgid "All Day"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:395
+msgid "Time Slots"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:434
+msgid "Add holiday"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:450
+msgid "From"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:456
+msgid "To"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:481
+msgid "Repeat Yearly?"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:575
+msgid "Hours"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:583
+msgid "Frequency (Mins)"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:588
+msgid "Cutoff (Mins)"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:593
+msgid "Max Orders (Slot)"
+msgstr ""
+
+#: inc/modules/timings/class-timings-settings.php:653
+msgid "Update Timezone"
+msgstr ""
+
+#. translators: %s: Timezone string.
+#: inc/modules/timings/class-timings-settings.php:658
+msgid "Your store's current timezone is %s."
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:58
+msgid "Sun"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:59
+msgid "Mon"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:60
+msgid "Tue"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:61
+msgid "Wed"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:62
+msgid "Thu"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:63
+msgid "Fri"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:64
+msgid "Sat"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:104
+msgid "Closed"
+msgstr ""
+
+#: inc/modules/timings/class-timings.php:110
+msgid "Holiday"
+msgstr ""
+
+#: inc/modules/tip/class-tip.php:31, inc/modules/tip/class-tip.php:38
+msgid "Tip Settings"
+msgstr ""
+
+#: inc/modules/tip/class-tip.php:44
+msgid "Enable Tipping"
+msgstr ""
+
+#: inc/modules/tip/class-tip.php:45
+msgid "Show tipping options at checkout."
+msgstr ""
+
+#: inc/modules/drawer/templates/drawer.php:24
+msgid "Your Order"
+msgstr ""
+
+#: inc/modules/services/templates/service-selector.php:30
+msgid "Change?"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:7
+msgid "Categories"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:9
+msgid "Select which product categories to display in this layout."
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:34
+msgid "Display"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:36
+msgid "How should the products be displayed?"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:46
+msgid "Grid"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:47
+msgid "List"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:59
+msgid "Sections"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:61
+msgid "Separate each category by titles or tabs."
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:71
+msgid "Images"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:73
+msgid "Should product images be displayed?"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:92
+msgid "Clickable Card"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:94
+msgid "Choose what happens when you click the product card."
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:104
+msgid "Nothing"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:105
+msgid "Add to Cart"
+msgstr ""
+
+#: inc/modules/layouts/templates/admin/layout-settings-metabox.php:106
+msgid "Quick View Product"
+msgstr ""

@@ -1,0 +1,61 @@
+/* 
+ * Theme Name: Estera
+ * The theme's global css file 
+ */
+
+ // Colors
+@import "variables-site/variables-site";
+// Mixins
+@import "mixins/mixins-master";
+
+// Normalize
+@import "normalize";
+
+// Blocks
+
+@import "blocks";
+
+// Typography
+
+@import "typography";
+
+// Navigation
+@import "navigation/navigation";
+
+// Accessibility
+@import "modules/accessibility";
+
+// Alignments
+@import "modules/alignments";
+
+// Infinite scroll
+@import "modules/infinite-scroll";
+
+// Media
+@import "media/media";
+
+// Comments
+@import "comments";
+
+// Global CSS
+
+@import "global";
+
+@import "wrapper";
+@import "slider";
+
+
+@import "header";
+
+// Widgets
+@import "sidebar";
+
+// Footer
+@import "footer";
+
+@import "entry-meta";
+
+@import "post-loop";
+
+// Homepage
+@import "home";

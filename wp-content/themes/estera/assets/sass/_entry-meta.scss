@@ -1,0 +1,38 @@
+// Add icons to entry meta
+
+%icon-preset {
+    font-family: ElegantIcons;
+    position: relative;
+    top: 1px;
+    padding-right: 6px;
+}
+
+.cat-links:before {
+    content: '\6d';
+    @extend %icon-preset
+}
+
+.tags-links:before {
+    content: '\e017';
+    @extend %icon-preset
+}
+
+.author.vcard:before {
+    content: '\e08a';
+    @extend %icon-preset;
+    top: 1px
+}
+
+.posted-on:before {
+    content: '\e023';
+    @extend %icon-preset
+}
+
+.comments-link:before {
+    content: "\76";
+    @extend %icon-preset
+}
+
+.edit-link {
+    color: #3880ff;
+}

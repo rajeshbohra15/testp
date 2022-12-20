@@ -1,0 +1,21 @@
+.go-pro-section {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.control-section-estera-pro-section .accordion-section-title .button {
+    text-align: center;
+    font-weight: 700;
+    background: #ff499a;
+    color: #fff;
+    border-color: #ff499a;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.control-section-estera-pro-section .accordion-section-title .button:hover,
+.control-section-estera-pro-section .accordion-section-title .button:focus{
+    opacity: .9;
+}

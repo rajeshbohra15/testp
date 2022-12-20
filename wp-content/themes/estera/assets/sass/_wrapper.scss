@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    @include elvira-container;
+
+    @media (min-width: 40em) {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+}
+
+.site-main {
+    
+  width: 100%;
+
+    @media (min-width: 40em) {
+      max-width: 70%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+}

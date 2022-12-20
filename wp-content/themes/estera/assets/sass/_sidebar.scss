@@ -1,0 +1,134 @@
+.widget-area {
+    position: relative;
+  }
+  
+  #secondary {
+    padding: 20px 0;
+    @media (min-width: 40em) {
+      width: 100%;
+      max-width: 25%;
+    }
+  }
+  
+  .widget {
+    margin: 0 0 2.5em;
+    border-bottom: 1px solid #e3e3e3;
+  
+    h2 {
+      line-height: 22px;
+    }
+  
+    // Make sure select elements fit in widgets.
+    select {
+      max-width: 100%;
+    }
+    @media (min-width: 40em) and (max-width: 60em) {
+      input {
+        max-width: 60%;
+      }
+    }
+  }
+  
+  .widget-area {
+    .calendar_wrap tbody {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      a {
+        font-size: 0.75em;
+        line-height: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: rgb(136, 136, 136);
+      }
+    }
+  
+    > ul {
+      margin-left: 0;
+    }
+  
+    // Tags Widget
+    .tagcloud a {
+      margin: 0 3px 5px 0;
+    }
+  
+    .tagcloud a {
+      color: #a7a6a6;
+      border: 1px solid #a7a6a6;
+      padding: 0 15px;
+      line-height: 32px;
+      height: 32px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 10px !important;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+    }
+  
+    .tagcloud a:hover {
+      color: #fff;
+      border-color: #9d9d9d;
+      background-color: #9d9d9d;
+    }
+  
+    .widget_tag_cloud {
+      border: 0;
+    }
+  
+    // Search form widget
+    &.widget_search {
+      border-bottom: 0;
+    }
+  
+    #searchform {
+      @media (min-width: 80em) {
+        width: 100%;
+      }
+      input[type="search"] {
+        background-color: transparent;
+        font-family: inherit;
+        width: 82%;
+        float: left;
+        box-sizing: border-box;
+      }
+  
+      input[type="search"],
+      #searchsubmit {
+        height: 45px;
+        outline: 0;
+      }
+    }
+  }
+
+  .widget-title {
+      font-size: 18px;
+  }
+  
+  .site-footer .widget-area {
+    .widget-title {
+      color: #fff;
+    }
+    .icon_search::before {
+      color: #fff;
+    }
+    .woocommerce-product-search {
+      .search-field {
+        line-height: 30px;
+      }
+      .icon_search {
+        line-height: 14px;
+      }
+      .icon_search::before {
+        color: #000;
+      }
+      button[type="submit"]:hover {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }

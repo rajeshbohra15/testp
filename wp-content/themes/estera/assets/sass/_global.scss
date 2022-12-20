@@ -1,0 +1,203 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: $color__white; // Fallback for when there is no custom background color defined.
+	@media (min-width: 1200px) {
+		overflow-x:hidden;
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+img {
+	height: auto; // Make sure images are scaled correctly.
+	max-width: 100%; // Adhere to container width.
+}
+
+figure {
+	margin: 1em 0; // Extra wide images within figure tags don't overflow the content area.
+}
+
+ul,
+ol {
+	margin: 0 0 1.5em .5em;
+	padding-left: 1em
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1em;
+	padding-left: 1em
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em .5em;
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+.entry-footer span {
+	padding-right: 8px
+}
+
+a {
+
+	&:hover,
+	&:active {
+		opacity: .7;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+.sticky {
+	display: block;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: $color_button;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: 0.9em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+		background-color: $color__background-button-hover;
+		color: $color_button-hover;
+		cursor: pointer;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+	padding: 3px;
+	font-size: .85em;
+	&:focus {
+		color: $color__text-input-focus;
+	}
+}
+
+select {
+	border: 1px solid $color__border-input;
+}
+
+textarea {
+	width: 100%;
+}
+
+// Stick footer to bottom
+.container {
+	min-height: 80vh;
+}
+
+// Search form 404 not found
+
+#searchform {
+	@media (min-width: 80em) {
+		width: 48%;
+	}
+    background-color: transparent;
+    border: 1px solid #e3e3e3;
+
+    input[type="search"] {
+		width: 82%;
+        margin: 0;
+        padding: 0 12px;
+        color: #8d8d8d;
+    }
+
+    input[type="search"], #searchsubmit {
+        height: 45px;
+        border: 0;
+    }
+
+    #searchsubmit {
+		border: 0;
+		background: transparent;
+        &:hover {
+            background: transparent;
+            color: #6d6d6d;
+        }
+    }
+
+}
+
+.more-link, .more-link:visited {
+	color: #101010;
+}

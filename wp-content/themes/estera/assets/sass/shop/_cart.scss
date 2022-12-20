@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+
+    .product-thumbnail {
+        &::before {
+            display: none;
+        }
+
+        img {
+            float: left;
+        }
+    }
+
+    .coupon {
+        padding-bottom: 1em;
+    }
+
+    table.shop_table_responsive tr td {
+        font-weight: 700;
+
+        a, span{
+            font-weight: 400;
+        }
+    }
+    
+}

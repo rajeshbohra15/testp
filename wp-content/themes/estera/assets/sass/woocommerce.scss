@@ -1,0 +1,59 @@
+/*
+ * Theme Name: Estera
+ * WooCommerce styles override
+*/
+
+// WooCommerce color variables
+$woocommerce__color-error: #e2401c;
+$woocommerce__color-success: #0f834d;
+$woocommerce__color-info: #3d9cd2;
+
+// Imports
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+@import "extends/top-menu-icons";
+
+// Woocommerce default css file
+
+@import "shop/default";
+
+// Gutenberg Custom css styles
+
+@import "shop/blocks";
+
+//Header
+
+@import "shop/header";
+
+// Layout
+@import "shop/shop";
+
+// Shop tables
+@import "shop/tables";
+
+// Products
+ @import "shop/products";
+ 
+// General WooCommerce components
+@import "shop/components";
+
+// WooCommerce widgets
+@import "shop/widgets";
+
+// Single product
+
+@import "shop/single-product";
+
+// Checkout 
+@import "shop/checkout";
+
+
+@import "shop/cart";
+
+// Woocommerce account page
+
+@import "shop/account";
+
+// Fixed navigation
+
+@import "shop/fixed-menu"

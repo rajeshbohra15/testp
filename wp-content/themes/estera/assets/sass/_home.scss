@@ -1,0 +1,27 @@
+// Post title in post loop
+h2.entry-title a {
+    color: $headings_color;
+    font-size: 24px;
+}
+
+.entry-meta .posted-on, .entry-footer span {
+	padding-right: 8px
+}
+
+.entry-meta span, .entry-footer span {
+    color: $color__dark_gray;
+    font-weight: 300;
+}
+
+.entry-meta span a, .entry-footer span a, .entry-meta span .entry-date {
+    color: $color__dark_gray;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.entry-meta span a:hover, .entry-footer span a:hover {
+    color: $color__pink;
+    text-decoration: underline;
+}

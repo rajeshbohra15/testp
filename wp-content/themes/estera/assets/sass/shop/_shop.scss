@@ -1,0 +1,59 @@
+@media (max-width: 40em) {
+
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 90% !important;
+        margin: 1em auto 3em !important;
+        float: none !important;
+    }
+
+}
+
+.elvira-shop {
+    ul {
+        li {
+            .onsale {
+                position: absolute;
+                background: #000;
+                color: #fff;
+                padding: .25rem 1rem;
+            }
+        }
+    }
+}
+
+// Pagination
+.page-numbers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 0 0;
+
+    li {
+        margin: 0 .25rem;
+
+        :hover {
+            cursor: pointer;
+        }
+
+        a {
+            padding: .3rem .35rem;
+            border: 1px solid;
+            position: inherit;
+        }
+
+        .next,
+        .prev {
+            border: none;
+            font-weight: bolder;
+        }
+
+        .current {
+            background: #000;
+            color: #fff;
+            padding: .3rem .35rem;
+            border: 1px solid;
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+%menu-icons {
+    font-size: 9px;
+    position: absolute;
+    left: 3em;
+    @media(max-width: 981px){
+        left: 3em;
+        right: auto;
+    }
+    background: $color__pink;
+    display: inline-block;
+    line-height: 12px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1px 4px;
+}

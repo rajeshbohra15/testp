@@ -1,0 +1,449 @@
+/*
+Theme Name: Estera
+
+Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+// Normalize
+@import "normalize";
+
+// Blocks
+
+@import "blocks";
+
+// Typography
+
+@import "typography";
+
+// Accessibility
+@import "modules/accessibility";
+
+// Alignments
+@import "modules/alignments";
+
+
+// Infinite scroll
+@import "modules/infinite-scroll";
+
+// Media
+@import "media/media";
+
+// Comments
+@import "comments";
+
+// Global CSS
+
+@import "global";
+
+@import "wrapper";
+
+@import "slider";
+
+@import "header";
+
+// Widgets
+@import "sidebar";
+
+// Footer
+@import "footer";
+
+// Homepage
+@import "home";
+
+@import "entry-meta";
+
+@import "navigation/back-to-top";
+
+// Elements
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+html {
+   box-sizing: border-box;
+}
+
+body {
+   background: #fff;
+}
+
+hr {
+   background-color: #ccc;
+   border: 0;
+   height: 1px;
+   margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+   margin: 0 .5em 1.5em 0;
+   padding-right: 1em;
+}
+
+ul {
+   list-style: disc;
+}
+
+ol {
+   list-style: decimal;
+}
+
+li > ul,
+li > ol {
+   margin-bottom: 0;
+   margin-right: 0.5em;
+}
+
+dt {
+   font-weight: 700;
+}
+
+dd {
+   margin: 0 1.5em 1.5em;
+}
+
+img {
+   height: auto;
+   max-width: 100%;
+}
+
+figure {
+   margin: 1em 0;
+}
+
+table {
+   margin: 0 0 1.5em;
+   width: 100%;
+}
+
+// Links
+a {
+   color: rgb(50, 55, 60);
+}
+
+a:hover,
+a:focus,
+a:active {
+   color: #101010;
+   opacity: 0.7;
+}
+
+a:focus {
+   outline: thin dotted;
+}
+
+a:hover,
+a:active {
+   outline: 0;
+}
+
+// Back to top button
+
+.back-to-top {
+   left:9px;
+   right: auto;
+}
+
+//  Menus
+
+.main-navigation {
+   @media (min-width: 600px){
+	   display: flex;
+	   justify-content: flex-end;
+	   align-items: center;
+   }
+   width: 100%;
+   // Third level submenu
+   ul ul li:hover > ul, ul ul li.focus > ul {
+	   right: 100% !important;
+   }
+
+   ul ul {
+	   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	   min-width: 150px;
+	   @media (min-width: 600px){
+		   float: right;
+	   }
+   }
+
+   li > ul, li > ol {
+	   margin-left: 0em;
+	   padding-left: 0em;
+   }
+}
+
+.main-navigation ul {
+   display: none;
+   list-style: none;
+   margin: 0;
+   padding-right: 0;
+   padding-left: 0;
+
+   .menu-item-has-children > a:before {
+	   font-family: ElegantIcons;
+	   content: "\33";
+   }
+}
+
+.main-navigation ul ul {
+   position: absolute;
+   top: 100%;
+   right: -999em;
+   z-index: 99999;
+
+   .menu-item-has-children > a:before {
+	   font-family: ElegantIcons;
+	   content: "\34";
+   }
+}
+
+.main-navigation ul ul ul {
+   right: -999em;
+   top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+   display: block;
+   right: auto;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+   right: auto;
+}
+
+.main-navigation li {
+   position: relative;
+}
+
+.main-navigation a {
+   display: block;
+   text-decoration: none;
+}
+
+// Small menu.
+.menu-toggle,
+.main-navigation.toggled ul {
+   display: block;
+}
+
+.main-navigation-container .custom-logo-link {
+   padding-right: 0em;
+   padding-left: 1em;
+}
+
+@media screen and (min-width: 37.5em) {
+
+   .menu-toggle {
+	   display: none;
+   }
+
+   .main-navigation ul {
+	   display: flex;
+   }
+}
+
+// Core wp blocks
+
+// Latest Posts Block
+
+.wp-block-latest-posts li a {
+   padding: 1em 0 0 2em;
+   display: inline-block;
+}
+
+// Tags Block
+
+// Tags Widget
+.wp-block-tag-cloud a {
+   margin: 0 0 5px 3px;
+}
+
+// Mobile rtl styles
+
+@media (max-width: 600px) {
+
+   .menu-toggle {
+	   left: 0;
+	   right: auto !important;
+   }
+
+   .main-navigation ul ul {
+	   box-shadow: none;
+	   right: auto;
+	   position: static;
+
+	   ul {
+		   right: auto;
+	   }
+   }
+   
+}
+
+.comment-navigation .nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+   display: flex;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+   flex: 1 0 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+   text-align: end;
+   flex: 1 0 50%;
+}
+/* Avatar fix for rtl */
+.comment-body img.avatar {
+   right: -1.5em;
+}
+
+.comments-area .comment-body {
+   padding-left: 0;
+   padding-right: 60px;
+}
+
+// Accessibility
+
+// Text meant only for screen readers.
+.screen-reader-text {
+   border: 0;
+   clip: rect(1px, 1px, 1px, 1px);
+   clip-path: inset(50%);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute !important;
+   width: 1px;
+   word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+   background-color: #f1f1f1;
+   border-radius: 3px;
+   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+   clip: auto !important;
+   clip-path: none;
+   color: #21759b;
+   display: block;
+   font-size: 0.875rem;
+   font-weight: 700;
+   height: auto;
+   right: 5px;
+   line-height: normal;
+   padding: 15px 23px 14px;
+   text-decoration: none;
+   top: 5px;
+   width: auto;
+   z-index: 100000;
+   opacity: 1;
+}
+
+// Do not show the outline on the skip link target.
+#primary[tabindex="-1"]:focus {
+   outline: 0;
+}
+
+// Alignments
+.alignleft {
+   float: right;
+   margin-left: 1.5em;
+   margin-bottom: 1.5em;
+}
+
+.alignright {
+   float: left;
+   margin-right: 1.5em;
+   margin-bottom: 1.5em;
+}
+
+.aligncenter {
+   clear: both;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 1.5em;
+}
+
+// Widgets
+
+.widget-area > ul {
+   margin-right: 0;
+
+}
+
+.widget-area ul {
+   padding-right: 0;
+}
+
+.widget {
+   margin: 0 0 1.5em;
+
+   #searchform {
+	   input[type="search"] {
+		   float: right;
+	   }
+   }
+}
+
+.widget select {
+   max-width: 100%;
+}
+
+// Content
+
+// Posts and pages
+.sticky {
+   display: block;
+}
+
+.updated:not(.published) {
+   display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+   margin: 1.5em 0 0;
+}
+
+.page-links {
+   clear: both;
+   margin: 0 0 1.5em;
+}
+
+// Infinite scroll
+
+// Hide the Posts Navigation and the Footer when Infinite Scroll is in use.
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+   display: none;
+}
+
+// Re-display the Theme Footer when Infinite Scroll has reached its end.
+.infinity-end.neverending .site-footer {
+   display: block;
+}
+
+// Seach form
+
+.widget #searchform input[type="search"] {
+   float: right;
+}

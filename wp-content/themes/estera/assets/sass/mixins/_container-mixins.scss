@@ -1,0 +1,10 @@
+@mixin elvira-container {
+    max-width: 1180px;
+    padding: 1em 15px 0;
+}
+
+@mixin full-width {
+	margin: 32px calc(50% - 50vw);
+	max-width: 100vw;
+	width: 100vw;
+}

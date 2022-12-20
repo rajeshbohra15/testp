@@ -1,0 +1,25 @@
+/*
+Theme Name: Estera
+Theme URI: https://nasiothemes.com/themes/estera
+Author: Atanas Yonkov
+Author URI: https://nasiothemes.com/
+Description: Estera is a lightweight, SEO friendly WordPress theme, optimized for creating blazing fast blogs, portfolio websites and WooCommerce online stores. This multi-purpose theme is very intuitive to use and provides an exhaustive documentation and plenty of options in the theme customizer, which makes it accessible and easy to use even to people with little or no coding experience at all. The theme features a fully customizable header slider, powered by posts or products. Plenty of options to customize the theme to taste. Option to pick between right sidebar, left sidebar or full-width layout. The visitors can choose between light and dark (night) theme mode and change their preferences with a single click. The theme features a beautiful typography and an option to choose between different types of fonts. Option to add or remove post meta information. The theme is focused on speed and user experience. It scores remarkably high on Google Page Speed Insights. The theme is built with the Gutenberg editor in mind but it also integrates well with the good old Classic editor. This versatile theme works smoothly with the most popular WordPress plugins. You can create a high-conversion e-commerce or portfolio website in just a few minutes, just import demo content from our beautiful site library. The theme is highly extensible and developer-friendly. It follows the Theme Hook Alliance best coding practicies to ensure smooth integration and best results. Theme homepage: https://nasiothemes.com/themes/estera/ Theme demo: https://estera-demo-01.nasiothemes.com/
+Version: 1.1.0
+Requires at least: 4.7
+Requires PHP: 5.6
+Tested up to: 5.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: estera
+Tags: e-commerce, portfolio, blog, block-styles, wide-blocks, one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, rtl-language-support, theme-options, threaded-comments, translation-ready
+*/
+
+/**
+ * This file is here to make WordPress happy. Do not modify.
+ *
+ * The actual stylesheets can be found in assets/css but this
+ * theme uses sass so they are preprocessed from assets/scss.
+ *
+ * If you want to add custom css to this theme, go to 
+ * Theme Customizer => Additional CSS tab
+ */

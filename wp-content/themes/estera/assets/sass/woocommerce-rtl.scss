@@ -1,0 +1,289 @@
+/*
+ * Theme Name: Estera
+ * WooCommerce rtl styles override
+*/
+
+// WooCommerce color variables
+$woocommerce__color-error: #e2401c;
+$woocommerce__color-success: #0f834d;
+$woocommerce__color-info: #3d9cd2;
+
+// Imports
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+@import "extends/top-menu-icons";
+
+// Woocommerce default css file
+@import "shop/default";
+
+// Gutenberg Custom css styles
+
+@import "shop/blocks";
+
+//Header
+
+@import "shop/header";
+
+// Layout
+@import "shop/shop";
+
+// Shop tables
+@import "shop/tables";
+
+// Products
+@import "shop/products";
+ 
+// Single product
+@import "shop/single-product";
+
+// Checkout
+@import "shop/checkout";
+
+// General WooCommerce components
+@import "shop/components";
+
+// WooCommerce widgets
+@import "shop/widgets";
+
+@import "shop/cart";
+
+// Home Page
+
+@import "shop/home";
+
+// RTL Woocommerce Styles
+
+.woocommerce ul.cart_list li img,
+.woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-left: 1em;
+}
+
+.woocommerce .price_label,
+.woocommerce .price_label span {
+    direction: ltr;
+    unicode-bidi: embed
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1 {
+    float: right
+}
+
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+    float: left
+}
+
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+.woocommerce div.product form.cart {
+    margin-bottom: 1em;
+}
+
+.woocommerce div.product form.cart .button {
+    vertical-align: middle;
+    float: right;
+}
+
+.woocommerce div.product form.cart div.quantity {
+    float: right;
+}
+
+.summary {
+    .cart .single_add_to_cart_button {
+        right: 10px;
+    }
+}
+
+.woocommerce .related.products li.product, .woocommerce-page .related.products li.product {
+    float: right;
+    padding: 1em;
+    margin: 0;  
+} 
+
+// Single
+
+// Sinlge poduct page fix
+
+.woocommerce.single span.onsale {
+    left: auto;
+    right: -.5em;
+}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+
+    float: left;
+
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    float: right;
+}
+
+// Search gallery
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger {
+    position: absolute;
+    top: 0.5em;
+    right: auto;
+    left: .5em
+}
+
+// Rating on single product page
+
+.woocommerce .woocommerce-product-rating .star-rating {
+    float: none;
+}
+
+// Cart
+
+@media (max-width: 767px) {
+
+    .product-thumbnail {    
+        img {
+            float: right;
+        }
+    }
+}
+
+table.shop_table_responsive tr td::before {
+    content: attr(data-title) ": ";
+    float: right;
+    direction: rtl;
+}
+
+table.shop_table_responsive tr td {
+    text-align: left;
+}
+
+/* Single product tabs */
+@media (max-width:960px){
+    .q_tabs .tabs-nav li {
+        margin-right: 0;
+    }
+}
+
+// Additional fields
+
+.woocommerce table.shop_attributes {
+    text-align: right;
+}
+
+// Menu icons
+.cart-counter {
+    right: auto;
+    left: 2em;
+    @media(max-width: 981px){
+        left: auto;
+        right: 3em;
+    }
+}
+@media (min-width: 60em){
+    .topcorner .cart-counter {
+        left: 1em;
+    }
+}
+
+.wishlist-counter {
+    right: auto;
+    left: 1em;
+    @media(max-width: 981px){
+        left: auto;
+        right: 3em;
+        top: 1.5em;
+    }
+}
+
+.widget .woocommerce-product-search input[type="search"] {
+    float: right;
+}
+
+// Fixed menu scss
+
+.topcorner {
+    float: left;
+    position:fixed;
+    top:35%;
+    left:-2px;
+    display: none;
+    text-align: center; 
+    z-index: 99999;
+    width: 50px;
+   }
+  
+   .topcorner .my-cart a {
+     color:#000;
+     margin-left:-10px;
+     padding:0px;
+ 
+   }
+   .topcorner .my-cart {
+     margin:0px;
+     padding:0px;
+   
+   }
+   .topcorner ul { 
+     margin:0px; 
+     padding: 0px; 
+   }
+   .topcorner ul li, 
+   .topcorner .my-cart {
+     margin-top:5px;
+     display:block;
+     list-style-type:none;
+     padding: 12px 5px;
+     box-shadow: -1px 3px 5px 0px rgb(212, 212, 212);
+     border-radius:3px;
+     background-color:#FFFFFF;
+   }
+
+// GUTENBERG BLOCKS
+
+.wp-block-button.wc-block-grid__product-add-to-cart {
+    right: auto;
+    left: 0
+}
+
+.wc-block-grid__product-onsale {
+    right: 5px;
+    left: auto;
+}
+// Wishlist
+
+.home .wishlist-widget-icon-wrapper {
+    left: 10px;
+    right: auto;
+    .yith-wcwl-wishlistexistsbrowse, .yith-wcwl-wishlistaddedbrowse{
+        right: auto;
+        left: 10px;
+    }
+}
+
+.yith-wcwl-add-to-wishlist .feedback .yith-wcwl-icon {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.onsale, .wc-block-grid__product-onsale {
+    right: 5px;
+    left: auto;
+}
+
+.yith-wcwl-icon {
+    padding-left: 5px;
+}
+
+// Demo content
+
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart.added::after {
+    font-family: WooCommerce;
+    content: "\e017";
+    color: #fff;
+    position: relative;
+    left: auto;
+    right: 1em
+}
